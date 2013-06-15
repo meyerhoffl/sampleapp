@@ -1,17 +1,23 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-
+gem 'bootstrap-sass'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
 gem 'sqlite3'
 gem 'rspec-rails'
+gem 'guard-rspec'
+gem 'guard-spork'
+gem 'childprocess'
+gem 'spork'
 end
 
 group :test do
 gem 'capybara'
+gem 'rb-fsevent'
+gem 'growl'
 end
 
 group :production do
