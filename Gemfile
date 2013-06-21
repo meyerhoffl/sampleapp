@@ -20,6 +20,9 @@ group :test do
 gem 'capybara'
 gem 'rb-fsevent'
 gem 'growl'
+gem 'factory_girl_rails'
+gem 'cucumber-rails'
+gem 'database_cleaner'
 end
 
 group :production do
